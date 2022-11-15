@@ -7,8 +7,8 @@ import {
   placeOrder,
   placeOrderOnline,
   processOrder,
-} from "../controllers/orderController.js";
-import { authorizeAdmin, isAuthenticated } from "../middleware/auth.js";
+} from "../controllers/order.js";
+import { authorizeAdmin, isAuthenticated } from "../middlewares/auth.js";
 
 const router = express.Router();
 

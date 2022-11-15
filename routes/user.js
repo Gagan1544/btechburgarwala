@@ -5,9 +5,11 @@ import {
   getAdminUsers,
   logout,
   myProfile,
-} from "../controllers/userController.js";
-import { authorizeAdmin, isAuthenticated } from "../middleware/auth.js";
+} from "../controllers/user.js";
+import { authorizeAdmin, isAuthenticated } from "../middlewares/auth.js";
+
 const router = express.Router();
+
 router.get(
   "/googlelogin",
   passport.authenticate("google", {
@@ -18,10 +20,14 @@ router.get(
 router.get(
   "/login",
   passport.authenticate("google", {
-    // scope: ["profile"],
+    //   scope: ["profile"],
     successRedirect: process.env.FRONTEND_URL,
   })
+  // (req, res, next) => {
+  //   res.send("logged in");
+  // }
 );
+
 router.get("/me", isAuthenticated, myProfile);
 
 router.get("/logout", logout);

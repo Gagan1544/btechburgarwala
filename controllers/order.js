@@ -1,9 +1,10 @@
-import { asyncError } from "../middleware/errorMiddleware.js";
+import { asyncError } from "../middlewares/errorMiddleware.js";
 import { Order } from "../models/Order.js";
 import { Payment } from "../models/Payment.js";
 import ErrorHandler from "../utils/ErrorHandler.js";
 import { instance } from "../server.js";
 import crypto from "crypto";
+
 export const placeOrder = asyncError(async (req, res, next) => {
   const {
     shippingInfo,

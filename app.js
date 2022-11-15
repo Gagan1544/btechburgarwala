@@ -4,7 +4,7 @@ import { connectPassport } from "./utils/Provider.js";
 import session from "express-session";
 import cookieParser from "cookie-parser";
 import passport from "passport";
-import { errorMiddleware } from "./middleware/errorMiddleware.js";
+import { errorMiddleware } from "./middlewares/errorMiddleware.js";
 import cors from "cors";
 
 const app = express();
