@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "reference-clock-367905",
+  "private_key_id": "1b4a3fb0db01dd65a4661fb2fcea09f78085a11e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMRNnTryMGxXcZ\nvs72TWwxTwNg7M1UGjRyHvGZrFFG2t/+5N8R55nJQLsFzn1H8F4yLb+5/8iZntfy\nTPvWqIG7JaTWcx25S5f+oku94jJ1GQ9yYWwnCi80PB0xyct5yNpYm5B71JuF0B6+\nZmhJRf4jZsJbHT6N5HGdEzl/6VBU2wockHOM8wlBd6JA3cq2f7PlvYxVxVKmvia7\nO9A9Dgej0kAs+eMEdnbKdZ/5atEO9uDpKl/P73rE4ehMEsae7ZwL2Oa/E6dlU5sA\n/KaZ3NpEX7vtVvdrcGyKBbcdDvcCTstZOSeb0pMKjdNCDqOZkGlSzEqBsRvKO+9m\neffhPngTAgMBAAECggEAQ8nRlBt5/0RGyyd0XW7CKfbzwxWy6mcr4nd8bCgwbNg0\nH83qbXGzqoMtzbaCAv608+gUyXAmLTz2ozWDGfCf5PCQLI7VXWnFzj4j7qcDYbLo\nWmgUUTxi/+23Lo+uVAMg2uj9YOrkldrEaSFpGG/+79apRz2EReh6/8qieV1/SDk0\nIZpKPd0vVvS9i1UBKcDbjrk7a3huSSodgAk4TFr+oLRiBUsqLDIJLQh8rrizv8/b\nUDJ/Rf2WAd3ZMtFOtJE842T9rSkXjjGDQGsszkzgnCigJRVsrjl8ACanOd/LQQ03\nI2opkNPC9OmYwSxcmGB57RF4buO5OU5b8v/mYLIrkQKBgQD9lr0/uCe4ZO3j4zcS\nHuBC1HuMJ425tqzafQ55d3lP53/urETC6csZG4Rp+2DoXT3MxnQrDDIYV3sjzSwm\nKChsg8xPdvyJcNx6NeoysJpglzoUV4PrvEjJlsL9drym3CylogFi/ez3QGugGqmZ\ncKeSR5WYNHrcZHIQzAp+QXt/+wKBgQDONg/k0CDEt+gmcOzVQbVj6anvFM5b3VXy\nv7Fj15wxOV91KO56c5UdczjNqqOayjvuewp9gGPGRcJyzKzovLxXLekyHGyENw0X\nwRLiue7/tVk03zIqxk5G5W8nrPK73TJmfnTJj4JibFmqxR6/gGloRoh5HZL/w91S\nzIh7uVg0yQKBgQDAkYJ+67JGBWbdAgMk4It+VGrJgJPQLldOx16BgOd/dRWiQfEp\nbm6LT2kbLghmC8BNS3qV4fn8oBnjkv9urlocJW21/m5BVJIov95rxc5FgTFalyaX\nkfBYHQNPhKY3s8S3trGE4bzb+XCBMR4PZgvqOi/wWBHgYOp5tOhW/hTxlwKBgQC+\n0yqcHLnmMSXExQV1R4w7PFVEaKWaP1W1AQ2ADlt89dHPUqR1bpZUHXc4Y6top7MU\nOop3nyM1rQKHR77O1TEZH+RHuiP1qhgUnlgCtftkaIZ3tf/vs3lmhBT7y0EI9mYY\nkPc0Ovh2ajwEGswcfRGOLI9IPUT2KGOcpqe6jscAeQKBgAHS3Ci38HztNnpA6Zre\niY71EQ64Vv4BzqGxpVXhza2XA9QswOR+JCCsgnlaaaCjWZzJuCNXKGUyE+pXF7V9\nLOFTzIFayYXpp6L9NGTArEBZEkADNRsZP2uRLazShxn3tic3CddmHCeJDvi+vVSe\n912TeY4FH1XzcjGI4mDlB9Tk\n-----END PRIVATE KEY-----\n",
+  "client_email": "btechburgarwala@reference-clock-367905.iam.gserviceaccount.com",
+  "client_id": "105134949779729282256",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/btechburgarwala%40reference-clock-367905.iam.gserviceaccount.com"
+}
