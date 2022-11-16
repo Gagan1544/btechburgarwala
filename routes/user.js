@@ -10,31 +10,36 @@ import { authorizeAdmin, isAuthenticated } from "../middlewares/auth.js";
 
 const router = express.Router();
 
-router.get(
-  "/googlelogin",
-  passport.authenticate("google", {
-    scope: ["profile"],
-  })
-);
+// console.log(process.env.RAZORPAY_API_KEY);
+// console.log(process.env.FRONTEND_URL);
+process.nextTick(() => {
+  router.get(
+    "/googlelogin",
+    passport.authenticate("google", {
+      scope: ["profile"],
+    })
+  );
+  router.get(
+    "/login",
+    passport.authenticate("google", {
+      // scope: ["profile"],
 
-router.get(
-  "/login",
-  passport.authenticate("google", {
-    //   scope: ["profile"],
-    successRedirect: process.env.FRONTEND_URL,
-  })
-  // (req, res, next) => {
-  //   res.send("logged in");
-  // }
-);
+      successRedirect: process.env.FRONTEND_URL,
+      // successRedirect: ,
+    })
+    // (req, res, next) => {
+    //   res.send("logged in");
+    // }
+  );
 
-router.get("/me", isAuthenticated, myProfile);
+  router.get("/me", isAuthenticated, myProfile);
 
-router.get("/logout", logout);
+  router.get("/logout", logout);
 
-// Admin Routes
-router.get("/admin/users", isAuthenticated, authorizeAdmin, getAdminUsers);
+  // Admin Routes
+  router.get("/admin/users", isAuthenticated, authorizeAdmin, getAdminUsers);
 
-router.get("/admin/stats", isAuthenticated, authorizeAdmin, getAdminStats);
+  router.get("/admin/stats", isAuthenticated, authorizeAdmin, getAdminStats);
+});
 
 export default router;
